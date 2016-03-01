@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>mingw-linphone-offline</id>
+    <version>5.3.0</version>
+    <authors>Brent Arias</authors>
+    <owners>Brent Arias</owners>
+    <licenseUrl>http://www.mingw.org/license</licenseUrl>
+    <projectUrl>http://www.mingw.org/wiki/MinGW</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/ferventcoder/chocolatey-packages/02c21bebe5abb495a56747cbb9b4b5415c933fc0/icons/mingw.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>MinGW (“Minimalistic GNU for Windows”) is a collection of freely available and freely distributable 
+    Windows specific header files and import libraries combined with GNU toolsets that allow one to produce native 
+    Windows programs that do not rely on any 3rd-party C runtime DLLs.
+    
+    Gambit Scheme system, compiler and interpreter.
+    
+    This package was designed for offline chocolatey installation.
+
+    To use a custom install path, instead of the default "C:\mingw", supply an argument:    
+
+    For example: choco install mingw-linphone-offline --params="/path:c:\myCustomPath\mingw"
+    </description>
+    <summary>MinGW ("Minimalistic GNU for Windows") is a collection of freely available and freely distributable Windows specific header files and import libraries combined with GNU toolsets that allow one to produce native Windows programs that do not rely on any 3rd-party C runtime DLLs.</summary>
+    <releaseNotes>This mingw distro has pre-loaded mingw modules needed for an (offline) linphone build.</releaseNotes>
+    <copyright />
+    <tags>mingw gnu unix gcc</tags>
+    <!--<dependencies>
+      <dependency id="SampleDependency" version="1.0" />
+    </dependencies>-->
+  </metadata>
+</package>
